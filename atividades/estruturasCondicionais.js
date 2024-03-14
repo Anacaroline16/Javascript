@@ -1,7 +1,7 @@
 //Exercicio do dia 07/03
 import input from 'readline-sync';
 //Exercicio 1
-const dia = input.questionInt('Digite um número do dia:');
+let dia = input.questionInt('Digite um número do dia:');
 switch (dia) {
     case 1:
         console.log('Domingo')
@@ -29,7 +29,7 @@ switch (dia) {
         break;
 }
 //Exercicio 2
-const mes= input.questionInt('Digite um número do mes:');
+let mes= input.questionInt('Digite um número do mes:');
 switch (mes) {
     case 1:
         console.log('Janeiro')
@@ -74,9 +74,9 @@ switch (mes) {
 
 //exercicio 3
 
-const num1= input.questionInt('Digite um número:');
-const num2= input.questionInt('Digite um número:');
-const operacao= input.question('Digite a operacao desejada:');
+let num1= input.questionInt('Digite um número:');
+let num2= input.questionInt('Digite um número:');
+let operacao= input.question('Digite a operacao desejada:');
 switch (operacao) {
     case '+':
         console.log(`Total: ${num1+num2}`)
@@ -96,8 +96,8 @@ switch (operacao) {
 }
 
 //Exercicio 4
-const salario= input.questionInt('Digite seu salario atual:');
-const boni= input.question('Digite a categoria de sua bonificacao:');
+let salario= input.questionInt('Digite seu salario atual:');
+let boni= input.question('Digite a categoria de sua bonificacao:');
 switch (boni) {
     case 'A':
         console.log(`Sua bonificacao sera de:R$${salario*(5/100)}`)
