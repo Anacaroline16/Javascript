@@ -36,3 +36,4 @@ console.log(idade>=18 ? 'Maior de idade':'Menor de idade');
 //Questão 8
 var num=17
 console.log(idade/2===0 ? 'PAR':'Ímpar');
+
