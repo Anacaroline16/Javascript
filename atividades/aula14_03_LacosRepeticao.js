@@ -13,9 +13,10 @@ while (contador<=10) {
 //Questão 2
 /*
 let num= input.questionInt('Digite o número de aluno na turma:');
-let contador=num
-while (contador<num) {
-
+let somaMedias=0
+let contador=1
+while (contador<=num) {
+    console.log(`Aluno ${contador}`);
     let nota1= input.questionInt(`Digite a nota do 1 bimentre:`);
     let nota2= input.questionInt(`Digite a nota do 2 bimentre:`);
     let nota3= input.questionInt(`Digite a nota do 3 bimentre:`);
@@ -33,7 +34,7 @@ let num= input.questionInt('Digite um número aleatorio de 1 a 100:');
 do {
     let min = 1;
     let max = 100;
-    let numeroAleatorio = Math.floor(Math.random() * (max - min + 1)) + min;
+    const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 console.log(numeroAleatorio);
 } while (contador==num);
     console.log('Você acertou!!')
