@@ -25,3 +25,4 @@ switch (ddd) {
         console.log("DDD não encontrado")
         break;
 }
+
